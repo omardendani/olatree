@@ -1,4 +1,4 @@
-import { design_system } from "../../config/bentoConfig";
+import { design_system } from "../../config/bentoConfig.jsx";
 
 export function Widget_Text({ data }) {
     

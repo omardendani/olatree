@@ -1,4 +1,4 @@
-import DynamicWebsiteRoute from "./DynamicWebsiteRoute";
+import DynamicWebsiteRoute from "./DynamicWebsiteRoute.jsx";
 
 // Déclaration des routes pour le site web
 export const websiteRoutes = {

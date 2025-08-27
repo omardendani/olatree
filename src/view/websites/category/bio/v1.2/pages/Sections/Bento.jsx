@@ -3,20 +3,20 @@ import gsap from 'gsap';
 import { Draggable } from "gsap/Draggable";
 
 // Devise type:
-    import { useDeviceType, normalizeDeviceType } from './hooks/useDeviceType'; // à créer si tu choisis le hook
+    import { useDeviceType, normalizeDeviceType } from './hooks/useDeviceType.jsx'; // à créer si tu choisis le hook
 
 
 // Config :
-    import { BENTO_ITEMS, GENERAL_CONFIG, GRID_CONFIG } from './config/bentoConfig';
+    import { BENTO_ITEMS, GENERAL_CONFIG, GRID_CONFIG } from './config/bentoConfig.jsx';
 
 // Hooks :
-    import { useDivWidth } from './hooks/useDivWidth';
-    import { useCollisionSystem } from './hooks/useCollisionSystem';
-    import { useGridCalculations } from './hooks/useGridCalculations';
-    import { useDragLogic } from './hooks/useDragLogic';
+    import { useDivWidth } from './hooks/useDivWidth.jsx';
+    import { useCollisionSystem } from './hooks/useCollisionSystem.jsx';
+    import { useGridCalculations } from './hooks/useGridCalculations.jsx';
+    import { useDragLogic } from './hooks/useDragLogic.jsx';
     
 // Components :
-    import DraggableItem from './components/DraggableItem';
+    import DraggableItem from './components/DraggableItem.jsx';
 
 // Registrer le plugin Draggable
     gsap.registerPlugin(Draggable);

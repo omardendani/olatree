@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { detectDeviceType } from '../../../utils/device';
+import { detectDeviceType } from '../../../utils/device.js';
 
 // ✅ Ton hook
 export function useDeviceType() {

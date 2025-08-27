@@ -1,6 +1,6 @@
 // 3. COMPOSANT POUR UN ITEM DRAGGABLE
 // components/DraggableItem.jsx
-import { Items } from './bento/Items';
+import { Items } from './bento/Items.jsx';
 
 export default function DraggableItem({
     item,

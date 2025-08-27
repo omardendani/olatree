@@ -2,10 +2,10 @@
 // hooks/useDivWidth.js
 import { useRef, useState, useEffect, useMemo } from 'react';
 import { debounce } from '../utils/helpers';
-import { GRID_CONFIG } from '../config/bentoConfig';
+import { GRID_CONFIG } from '../config/bentoConfig.jsx';
 
 // Devise type:
-    import { useDeviceType, normalizeDeviceType } from './useDeviceType'; // à créer si tu choisis le hook
+    import { useDeviceType, normalizeDeviceType } from './useDeviceType.jsx'; // à créer si tu choisis le hook
 
 
 export function useDivWidth() {

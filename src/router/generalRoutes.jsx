@@ -1,9 +1,9 @@
 import { lazy, Suspense } from "react";
 
-import BaserageLoader from "../utils/BaserageLoader";
+import BaserageLoader from "../utils/BaserageLoader.jsx";
 
-import DefaultLayout from "../layouts/Baserage/DefaultLayout";
-import GuestLayout from "../layouts/Baserage/GuestLayout";
+import DefaultLayout from "../layouts/Baserage/DefaultLayout.jsx";
+import GuestLayout from "../layouts/Baserage/GuestLayout.jsx";
 
 // Chargement dynamique avec React.lazy
 const loadUserComponent = (templateName, componentPath) =>
@@ -15,11 +15,11 @@ const loadUserComponent = (templateName, componentPath) =>
 
 // Chargement des composants du template
 const templateName = "default"; // Exemple : récupéré dynamiquement
-const LoginLayout = loadUserComponent(templateName, "layouts/LoginLayout");
+const LoginLayout = loadUserComponent(templateName, "layouts/LoginLayout.jsx");
 
-const Home = loadUserComponent(templateName, "pages/Home");
-const Login = loadUserComponent(templateName, "pages/Login");
-const Signup = loadUserComponent(templateName, "pages/Signup");
+const Home = loadUserComponent(templateName, "pages/Home.jsx");
+const Login = loadUserComponent(templateName, "pages/Login.jsx");
+const Signup = loadUserComponent(templateName, "pages/Signup.jsx");
 
 
 // Déclaration des routes générales

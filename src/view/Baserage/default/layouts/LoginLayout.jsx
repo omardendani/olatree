@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
-import { BaserageLogo } from "../assets/baserage/logo/BaserageLogo";
+import { BaserageLogo } from "../assets/baserage/logo/BaserageLogo.jsx";
 
 export default function LoginLayout() {
     return (

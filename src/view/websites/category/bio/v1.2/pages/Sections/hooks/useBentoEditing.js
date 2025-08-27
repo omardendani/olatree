@@ -1,6 +1,6 @@
 // hooks/useBentoEditing.js
 import { useState, useEffect, useCallback, useRef } from 'react';
-import bentoEditingManager from '../utils/bentoEditingManager';
+import bentoEditingManager from '../utils/bentoEditingManager.js';
 
 /**
  * Hook React pour interfacer avec le BentoEditingManager

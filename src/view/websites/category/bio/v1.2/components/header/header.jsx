@@ -1,5 +1,4 @@
-import Paragraph from "../assests/paragraph";
-import { design_system } from "../../pages/Sections/config/bentoConfig";
+import { design_system } from "../../pages/Sections/config/bentoConfig.jsx";
 
 
 export function Header({ content, editMode, style }) {

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { useStateContext } from "../../contexts/ContextProvider";
+import { useStateContext } from "../../contexts/ContextProvider.jsx";
 
 export default function UserLayout({ children }) {
     const { token } = useStateContext();

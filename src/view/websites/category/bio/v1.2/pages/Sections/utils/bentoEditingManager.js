@@ -1,5 +1,5 @@
 // bentoEditingManager.js
-import { BENTO_ITEMS } from "../config/bentoConfig";
+import { BENTO_ITEMS } from "../config/bentoConfig.jsx";
 
 
 /**

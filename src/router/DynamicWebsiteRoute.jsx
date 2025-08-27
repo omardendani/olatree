@@ -1,10 +1,10 @@
 import { lazy, Suspense, useEffect, useState } from "react";
 import { useParams, Navigate } from "react-router-dom";
-import WebsiteLoader from "../utils/websiteLoader";
-import Dashboard from "../layouts/Baserage/dashboard/Dashboard";
+import WebsiteLoader from "../utils/websiteLoader.jsx";
+import Dashboard from "../layouts/Baserage/dashboard/Dashboard.jsx";
 import pageData from "../data/pages.json";
-import { useAuthUser } from "../hooks/useAuthUser"; // facultatif
-import { PageDataProvider } from "../contexts/PageDataContext";
+import { useAuthUser } from "../hooks/useAuthUser.js"; // facultatif
+import { PageDataProvider } from "../contexts/PageDataContext.jsx";
 
 // Fonction pour importer dynamiquement un composant
 const loadTemplateComponent = (pageCategory, version, indexPath) =>

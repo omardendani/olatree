@@ -1,4 +1,4 @@
-import Paragraph from "../assests/paragraph";
+import Paragraph from "../assests/paragraph.jsx";
 
 export function Logo({ icon, childrenClass= 'btns-st1-ic' }) {
   return (

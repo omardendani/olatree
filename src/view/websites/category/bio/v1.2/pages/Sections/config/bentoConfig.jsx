@@ -1,8 +1,6 @@
 // 1. CONFIGURATION ET CONSTANTES
     // config/bentoConfig.js
-
-import { usePageData } from "../../../../../../../../contexts/PageDataContext";
-//const data = usePageData();
+    
 
 export const GENERAL_CONFIG = {
     BENTO_GRID_GAP: 16

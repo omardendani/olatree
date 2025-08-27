@@ -1,9 +1,9 @@
 // Icons
   import { 
     User, Phone, MapTrifold, ArrowDiagonal, ChatCircleDots
-  } from "../../assets/icons/Icons";
+  } from "../../assets/icons/Icons.jsx";
 
-  import Paragraph from "../assests/paragraph";
+  import Paragraph from "../assests/paragraph.jsx";
 
   const icons = [
     {

@@ -2,8 +2,8 @@
 
 import { useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { fetchPageOwner } from '../utils/api';
-import { useAuthUser } from '../hooks/useAuthUser';
+import { fetchPageOwner } from '../utils/api.jsx';
+import { useAuthUser } from '../hooks/useAuthUser.js';
 
 export default function PageResolver({ children }) {
     const { pagename } = useParams();

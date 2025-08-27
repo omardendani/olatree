@@ -1,13 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 
 // Layouts
-    import NotFound from "../view/NotFound";
+    import NotFound from "../view/NotFound.jsx";
 
 // Routes:
-    import { generalRoutes } from "./generalRoutes";
-    import { websiteRoutes } from "./websiteRoutes";
+    import { generalRoutes } from "./generalRoutes.jsx";
+    import { websiteRoutes } from "./websiteRoutes.jsx";
     
-    // import { merchantRoutes } from "./merchantRoutes";
+    // import { merchantRoutes } from "./merchantRoutes.jsx";
 
 
 export const router = createBrowserRouter([

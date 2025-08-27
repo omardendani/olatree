@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 
-import { design_system, WIDGET_TEMPLATE } from "../../config/bentoConfig";
-import { useDeviceType, normalizeDeviceType } from '../../hooks/useDeviceType';
+import { design_system, WIDGET_TEMPLATE } from "../../config/bentoConfig.jsx";
+import { useDeviceType, normalizeDeviceType } from '../../hooks/useDeviceType.jsx';
 
-import WhatsAppAction from '../../../../components/actions/Actions';
-import { getSiteInfo } from '../../../../utils/getSiteInfo';
+import WhatsAppAction from '../../../../components/actions/Actions.jsx';
+import { getSiteInfo } from '../../../../utils/getSiteInfo.jsx';
 
 
 export function Items({ data }) {

@@ -2,10 +2,10 @@
 import { useRef, useCallback, useEffect, useMemo } from 'react';
 import gsap from 'gsap';
 import { Draggable } from "gsap/Draggable";
-import { GRID_CONFIG, BENTO_ITEMS } from '../config/bentoConfig';
+import { GRID_CONFIG, BENTO_ITEMS } from '../config/bentoConfig.jsx';
 
 // Devise type:
-    import { useDeviceType, normalizeDeviceType } from './useDeviceType'; // à créer si tu choisis le hook
+    import { useDeviceType, normalizeDeviceType } from './useDeviceType.jsx'; // à créer si tu choisis le hook
 
 // Register plugin Draggable
     gsap.registerPlugin(Draggable);
