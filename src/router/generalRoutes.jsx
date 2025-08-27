@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 
-import BaserageLoader from "../utils/BaserageLoader.jsx";
+import BaserageLoader from "../utils/baserageLoader.jsx";
 
 import DefaultLayout from "../layouts/Baserage/DefaultLayout.jsx";
 import GuestLayout from "../layouts/Baserage/GuestLayout.jsx";
