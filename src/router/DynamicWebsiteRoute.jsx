@@ -14,7 +14,7 @@ const loadTemplateComponent = (pageCategory, version, indexPath) =>
         ).then((module) => ({ default: module.default }))
     );
 
-export default function DynamicWebsiteRoute() {
+export default function dynamicWebsiteRoute() {
     const { profilename } = useParams();
     const [Component, setComponent] = useState(null);
     const [pageInfo, setPageInfo] = useState(null);
