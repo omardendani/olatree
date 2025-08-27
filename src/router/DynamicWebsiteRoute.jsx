@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from "react";
 import { useParams, Navigate } from "react-router-dom";
-import WebsiteLoader from "../utils/websiteLoader.jsx";
+import WebsiteLoader from "../utils/WebsiteLoader.jsx";
 import Dashboard from "../layouts/Baserage/dashboard/Dashboard.jsx";
 import pageData from "../data/pages.json";
 import { useAuthUser } from "../hooks/useAuthUser.js"; // facultatif
